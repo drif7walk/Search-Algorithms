@@ -89,7 +89,7 @@ int main()
     }
     else
     {
-        printf("%i not found in array.\r\n");
+        printf("%i not found in array.\r\n", index);
     }
 
     printf("\r\nBinary search:");
@@ -106,7 +106,7 @@ int main()
     }
     else
     {
-        printf("%i not found in array.\r\n");
+        printf("%i not found in array.\r\n", index);
     }
     /* Display array sorting */
     //for (i = 0; i < sz-1; i++)
